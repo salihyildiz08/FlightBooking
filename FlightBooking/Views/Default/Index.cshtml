@@ -1,15 +1,25 @@
-﻿
-@{
-    Layout = null;
+﻿﻿@{
+Layout = null;
 }
 
-<!DOCTYPE html>
+<!doctype html>
+<html class="no-js" lang="en">
 
-<html>
-<head>
-    <meta name="viewport" content="width=device-width" />
-    <title>Index</title>
-</head>
+    @await Component.InvokeAsync("_DefaultHeadComponentPartial")
+
 <body>
+
+    @await Component.InvokeAsync("_DefaultHeaderComponentPartial")
+
+    <main>
+
+    
+
+
+    </main>
+
+
+
+
 </body>
 </html>
